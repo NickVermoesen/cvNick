@@ -1,0 +1,188 @@
+<html>
+
+<head>
+
+    <!--Métadonnées du document, définition du jeu de caractères et des paramètres d'affichage-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Lien vers la feuille de style CSS externe-->
+    <link rel="stylesheet" href="../cssPageCv/styleMonCv.css">
+
+    <script src="../jsBouttonCv/monCvBoutton.js" defer></script>
+
+    <title>
+        Mon CV Nick Vermoesen
+    </title>
+
+</head>
+
+<body>
+    <!-- En-tête du CV contenant la photo et les informations de base-->
+    <header>
+        <!-- Conteneur de l'en-tête pour aligner la photo et les informations-->
+        <div class="header-container"><!--Div est une structure de type block-->
+            <!-- Image du profil-->
+            <img src="../imagesCv/2016.jpg" height="150px" width="150px" alt="Photo de Nick Vermoesen" class="photo">
+            <!-- Informations de l'en-tête (nom et profession) -->
+            <div class="header-info">
+                <h1>Nick Vermoesen</h1>
+                <h2><a href="https://technofuturtic.be" target="_blank">Apprenant chez Technofutur</a></h2>
+            </div>
+        </div>
+
+
+        <!-- Tableau des coordonnées avec  de la bordure de 1-->
+        <table border="1">
+            <caption>
+                <h2>Coordonnées</h2>
+            </caption>
+            <thead><!--Définit la section en-tête d'un tableau à l'aide de thead-->
+                <tr><!--Les lignes du tableau sont indiquées à l’aide de <tr>-->
+                    <td>Adresse :</td><!--<td> définit une cellule spécifique dans un tableau.-->
+                    <td>Route de Ramillies 147,5310 Eghezée</td>
+                </tr>
+
+                <tr>
+                    <td>GSM :</td>
+                    <td>0470/37/13/02</td>
+                </tr>
+
+                <tr>
+                    <td>Adresse mail:</td>
+                    <td><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"
+                            target="_blank">nick.vermoesen@gmail.com</a></td>
+                </tr>
+
+                <tr>
+                    <td>Date de naissance :</td>
+                    <td> 13/03/1989</td>
+                </tr>
+
+                <tr>
+                    <td>Nationalité :</td>
+                    <td>Belge</td>
+                </tr>
+
+                <tr>
+                    <td>Permis de conduire :</td>
+                    <td>B</td>
+                </tr>
+
+            </thead>
+        </table>
+    </header>
+
+    <!-- Section des compétences -->
+    <section id="competences">
+        <!--Id balise pour cibler un élément spécifique pour modifier une partie unique pour styler id dans css il devra être précédé par #compétence-->
+        <h2>Compétences Technique</h2>
+        <p>
+        <ul>
+            <li><span class="keyword">HTML</span> L'introduction.</li>
+            <li><span class="keyword">Ma première page HTML</span> Les balises de HTML.</li>
+            <li><span class="keyword">Structurer l'information HTML</span> Les paragraphes, les titres, Les listes à
+                puces ul et numérotées ol, la balise hr, les commentaires.</li>
+            <li><span class="keyword">Structurer un document HTML</span> Définition de la structure de la page,
+                accessibilité et compatibilité de la page web, anatomie de la page
+                header, head, footer, sections.</li>
+            <li><span class="keyword">Les images HTML</span> Insertion d'image, balise image, formats d'images GIF, PNG,
+                JPEG, SVG, poid des fichiers images, hauteur et largeur d'images,
+                légender une image.</li>
+            <li><span class="keyword">Les liens HTML</span> Comment créer un lien hypertexte, lien absolu et relatif,
+                sortir ou rentrer dans un dossier.</li>
+            <li><span class="keyword">Les tableaux</span> Structure d'un tableau, Contenu d'un tableau, Légender un
+                tableau.</li>
+            <li><span class="keyword">Les formulaires</span> A quoi sert ou comment fonctionen un formulaire, saisie des
+                données multiples.</li>
+            <li><span class="keyword">CSS</span> L'introduction, codes couleurs</li>
+            <li><span class="keyword">Ma première feuille de style CSS</span> Les feuilles internes et exeterne en CSS,
+                lier une feuille externe, anatomie du style CSS</li>
+            <li><span class="keyword">Les sélecteurs</span>Les balises, les sélecteurs contextuels, sélecteur des
+                descendance direct, sélectionner avec des ID, différences entre
+                les classes et les id, la balise Span, les sélecteurs multiples, concept d'héritgae</li>
+            <li><span class="keyword">Mise en forme du texte</span> Création de la première page CSS, application des
+                styles, les délcarations, les polices de caractères, propriétés font-style,
+                font-weight, font-size, modification du style d'une liste.</li>
+        </ul>
+        </p>
+    </section>
+
+    <!-- Section d'expérience-->
+    <section id="experience">
+        <h2><a href="../htmlPageCv/monCvPage2.html">Expériences</a></h2>
+        <article>
+            <h2><a href="https://technofuturtic.be" target="_blank">Apprenant chez Technofutur TIC</a></h2>
+            <ul>
+                <li>Découverte de l'éditeur de code appelé IDE (Environnement de Développerment Intégré)</li>
+                <li>Découverte de différents moyens de communications Teams</li>
+                <li>Découverte de la plateforme de formation e-learning Moodle-Technofutur</li>
+                <li>Découverte de la plateforme Skills d'IBM</li>
+                <li>HTML Structure de l'information dans le codage HTML grâce aux balisages, attributs etc..</li>
+                <li>HTML Structure d'un document grâce à sa visibilité, compatibilité, accessibilité</li>
+                <li>HTML Intégration des images ainsi que les attributs des différents types JPEG, PNG, GIF, SVG</li>
+                <li>Premier projet à présenter LE CV</li>
+            </ul>
+        </article>
+    </section>
+
+    <!-- Section d'expérience-->
+    <section id="interets">
+        <h2>Centres d'intérets</h2>
+        <ul>
+            <li>Mes objectifs</li>
+            <li>Bien-être</li>
+            <li>Musculation</li>
+            <li>Les vêtements et chaussures</li>
+            <li>Cuisine</li>
+            <li>Musique et concert</li>
+            <li>Littérature</li>
+            <li>Et bien d'autres</li>
+        </ul>
+    </section>
+
+    <!-- Section des langages-->
+    <section id="langues">
+        <h2>Langues</h2>
+        <ol>
+            <li><strong>Français</strong> <br>Langue maternelle</li>
+            <li><strong>Anglais</strong> <br>Intermédiaire</li>
+        </ol>
+    </section>
+
+
+    <div class="form">
+        <h3>Est-ce que mon profil répond à vos critère de recherche ?</h3>
+        
+            <button id="btnOui">Oui</button>
+            <button id="btnNon">Non</button>
+    
+      </div>
+
+
+    <footer>
+        <table>
+            <tr>
+                <td>
+                    <a href="https://www.linkedin.com/in/nick-vermoesen-b0b6042b8/?trk=opento_sprofile_goalscard"
+                        target="_blank">
+                        <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="32px" height="32px"
+                            alt="linkedin">
+                    </a>
+                    <!--Cette mise à jour a été effectuée par Nick Vermoesen le 18/02/2025 à 19H36-->
+                </td>
+            </tr>
+            </section>
+    </footer>
+</body>
+
+</html>
+
+<!--Différence entre balise id est unique et la class ne l'est pas
+Dans css # représente le id et la class est représenté par un .-->
+
+<!--Les class ne sont pas parent des autres class y a qu'au balises que ça s'applique-->
+
+<!--Dans HTML il y a les balises, et dans le style CSS elles deviennent les sélecteurs-->
+
+<!--La class peut être utilisée pour cibler plusieurs balises qui devient un block-->

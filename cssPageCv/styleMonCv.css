@@ -1,0 +1,113 @@
+a {
+    color: rgb(255, 0, 0); /* Couleur normale du lien */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+a:visited {
+    color: rgb(0, 0, 0); /* Couleur après visite */
+}
+
+a:hover {
+    color: rgb(165, 17, 17); /* Couleur au survol */
+}
+
+a:active {
+    color: rgb(8, 66, 25); /* Couleur lorsqu'on clique */
+    font-weight: bold; /* Gras pendant le clic */
+}
+
+
+
+body {
+    background-image: url('../imagesCv/backgroundcv.jpg'); /* Chemin vers ton image */
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir l'ensemble de l'écran */
+    font-family: Arial, sans-serif; /**/
+    line-height: 1.60; /* Définit l'interligne (espace entre les lignes de texte) */
+    margin: 0; /* Supprime la marge par défaut autour de l'élément body */
+    padding: 0; ; /* Supprime le padding (rembourrage) par défaut autour de l'élément body */
+}
+
+header {
+    
+    background-color: #8bd1a2; /* Définit la couleur de fond de l'en-tête */
+    padding: 20px; ; /* Ajoute un rembourrage interne de 20 pixels autour de l'en-tête */
+    display: flex; /* Utilise un modèle de mise en page en flexbox */
+    align-items: center; /* Centre verticalement les éléments flexibles dans l'en-tête */
+    border-bottom: 5px solid #000000; ; /* Ajoute une bordure inférieure de 1 pixel avec une couleur gris clair */
+}
+
+.header-container {
+    display: flex; /* Utilise un modèle de mise en page en flexbox pour les éléments à l'intérieur de .header-container */
+    align-items: center; /* Centre verticalement les éléments flexibles dans .header-container */
+}
+
+#competences {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.keyword {
+    font-weight: bolder;
+    color : rgb(119, 0, 255);
+}
+
+.photo {
+    border-radius: 50%; /* Donne une forme ronde à l'image de la photo */
+    width: 150px; /* Définit la largeur de l'image à 150 pixels */
+    height: 150px; /* Définit la hauteur de l'image à 150 pixels */
+    object-fit: cover; /* Ajuste l'image pour qu'elle couvre l'espace sans distorsion */
+    margin-right: 20px; /* Ajoute une marge de 20 pixels à droite de l'image */
+}
+
+
+h1 {
+    margin: 0; /* Supprime la marge par défaut autour du titre h1 */
+}
+
+h2 {
+    padding-bottom: 10px; ; /* Ajoute un rembourrage interne de 10 pixels en bas du titre h2 */
+}
+
+
+section {
+    padding: 20px; /* Ajoute un rembourrage interne de 20 pixels autour de chaque section */
+}
+
+article {
+    margin-bottom: 20px; ; /* Ajoute une marge inférieure de 20 pixels autour de chaque article */
+}
+
+
+ul, ol {
+    list-style-type: disc; /* Définit le type de puce pour les listes non ordonnées à disques */
+    padding-left: 20px; /* Ajoute un rembourrage interne de 20 pixels à gauche des listes */
+}
+
+ul {
+    list-style-type: square; /* Définit le type de puce pour les listes non ordonnées à carrés */
+}
+
+table {
+    border-width : 2px;
+    width: 80%; /* Définit la largeur du tableau à 80% de l'élément parent */
+    border-collapse: collapse; /* Fusionne les bordures du tableau en une seule bordure */
+    margin-top: 10px; ; /* Ajoute une marge supérieure de 10 pixels autour du tableau */
+    border-color: #000000;
+}
+
+th, td {
+    padding: 8px;  /* Espacement interne de 8px autour du contenu */
+    text-align: left; /* Aligne le texte à gauche */
+}
+
+th {
+    background-color: #f4f4f4; /* Couleur de fond des cellules d'en-tête */
+}
+
+footer {
+    background-color: #ffffff; /* Couleur de fond du pied de page */
+    border-top: 5px solid #000000; /* Ajoute une bordure en haut du pied de page */
+}
+
+
+    
+/*Attention à bien respecter la hirérarchie des style*/
